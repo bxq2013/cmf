@@ -1,0 +1,266 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>商务合作</title>
+
+<link href="css/style.css" rel="stylesheet" />
+<link href="css/slideshow.css" rel="stylesheet" />
+<link href="css/ui-dialog.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/raphael-min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.js"></script>
+<script src="js/iview.js"></script>
+<script type="text/javascript" src="js/scrolltopcontrol.js"></script>
+<script src="js/s3Slider.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/dialog/dialog-min.js"></script>
+<script type="text/javascript" src="js/jquery.scrollbox.js"></script>
+<script type="text/javascript" src="js/webtry_roll.js"></script>
+<script type="text/javascript" src="js/jquery-easing-1.3.0.js"></script>
+<script type="text/javascript" src="js/modernizr.mediaqueries.js"></script>
+<script type="text/javascript" src="js/responsive-hub.js"></script>
+<script type="text/javascript" src="js/jquery.silver_track.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/jquery.silver_track_recipes.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/jquery.silver_track.navigator.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/jquery.silver_track.bullet_navigator.js" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function(){
+	
+		
+		$(".sponsor").on("click",function(){
+			var index = $(this).index();
+			var content = $(".basicContent:eq("+index+")").html();
+			var d = dialog({
+				content: content,
+				quickClose: true// 点击空白处快速关闭
+			});
+			d.show(this);
+	});
+	 
+   
+	});
+</script>
+</head>
+
+<body>
+<div class="wrapper"> 
+
+     
+   
+     <!-- 菜单-->
+  <!-- <div class="mm">
+    <ul>
+      
+      </a> <a href="/#brightspot" >
+      <li class="zthd"></li>
+      </a> <a href="service.jsp" >
+      <li class="chfw"></li>
+      
+      </a>
+    </ul>
+  </div> -->
+  <!--菜单end-->
+
+    <!--头部菜单-->
+   		    <!--头部菜单-->
+        <div class="navBar1">
+    <ul class="nav1">
+      <li class="logo"style="width:216px;"><img src="images/leader.png"/></li>
+      <li  class="icon1"><a href="index-2.html">　首页　</a></li>
+      <li   style="width:1px;"><img src="images/lit.png"/></li>
+      <li  class="icon1"><a href="index.html#brightspot">议题</a></li>
+      <li style="width:1px;"><img src="images/lit.png"/></li>
+      <li class="icon1"  ><a href="index.html#mainGuest">嘉宾</a></li>
+      <li style="width:1px;"><img src="images/lit.png"/></li>
+      <li class="icon1"  ><a href="participants.html">亮点</a></li>
+      <li  style="width:1px;"><img src="images/lit.png"/></li>
+      <li class="icon1"><a href="service.html">流程</a></li>
+      <li style="width:1px;"><img src="images/lit.png"/></li>
+      <li  class="icon1"><a href="bussiness.html">合作伙伴</a></li>
+      <li  style="width:1px;"><img src="images/lit.png"/></li>
+      <li  class="icon1"><a href="index.html#media">合作媒体</a></li>
+      <li  style="width:1px;"><img src="images/lit.png"/></li>
+      <li  class="icon1"><a href="index2.html">联系我们</a></li>
+    </ul>
+  </div>
+  <!--轮播-->
+ 
+   <!--轮播-->
+  <div style="margin:0 auto;width:100%; max-width:1400px;min-width:1024px;overflow:hidden;padding-top:70px;height: 300px;background-color:#E6E6E5;"> 
+    <div class="container">
+		<div id="iview">
+			<div data-iview:image="images/photo5.jpg" data-iview:transition="slice-top-fade,slice-right-fade">
+			</div>
+
+			<div data-iview:image="images/photo3.jpg" data-iview:transition="zigzag-drop-top,zigzag-drop-bottom" data-iview:pausetime="3000">
+
+			</div>
+            <div data-iview:image="images/photo6.jpg" data-iview:transition="strip-right-fade,strip-left-fade">
+
+			</div>
+            <div data-iview:image="images/photo4.jpg">
+
+			</div>
+
+		</div>
+	</div> 
+    <link rel="stylesheet" href="css/iview.css" />
+  </div>
+ 
+ 
+ <script type="text/javascript">
+         $(function(){
+	       scrolltotop.offset(12, 175);
+           scrolltotop.init();
+
+   
+			 })
+ </script>
+ <script type="text/javascript">
+ $(document).ready(function(){
+				$('#iview').iView({
+					pauseTime: 7000,
+					directionNav: false,
+					controlNav: true,
+					tooltipY: -15
+				});
+			});
+</script>
+       
+     <!--中间内容-->
+    <div class="center">
+       <div class="maintext">
+      
+              
+          
+  
+                
+                
+                
+                    <div  class="idea" style="text-align:center;">
+                         港口危化品运输，漏洞多多！
+                         <br/>
+                    </div>
+                    <p></p>
+                    <p></p>
+                 <ul class="writer">
+                       <li class="why_answer">工信部</li>
+                       <li class="p">8月12日，天津港发生的燃爆事件造成我国重大人员伤亡，财产损失惨重。为贯彻落实党中央、国务院关于安全生产工作的重要指示精神，加强工业领域安全生产监测、预警及事故应急处置，推动《中国制造2025》战略实施，会议内容围绕“《中国制造2025》与现代安全生产体系建设”、“新一代信息技术产业发展与应急体系完善”、“人机替代产业发展前景及对应急能力建设的作用”、“新材料技术发展与救援防护装备完善”、“环境事故预警、监测、处理相关技术、装备和产业发展”五个议题展开讨论。
+</li>  
+                       <li class="why_answer">安监局</li>
+                       <li class="p">会议期间，中国安全产业协会副理事长王玉生发言，针对危化品监控管理，提出利用安全产业物联网监控管理平台，对危化品的生产、存储、经营、运输、使用、销毁全生命周期进行动态监管。该平台以安监局的日常监管工作为核心，融合了运管、工商、公安、质检、环保等单位对危化品的监管职能与流程，采用云计算技术和统一的标准化数据处理、存储机制，可以有效解决各单位独立建设监管系统的各种缺陷。实现了危化品全过程精细化监管、信息互联互通、高度共享、深度应用。</li> 
+                       <li class="why_answer">消防局：</li>
+                       <li class="p">7月16日，中国安全产业协会理事长肖健康一行前往马鞍山，就中国安全产业协会与马鞍山市政府合作事宜进行实地考察。当天下午，考察团分别前往马鞍山市规划局、雨山经济开发区、中钢矿院及华菱星马北区等地进行考察。马鞍山市安监局、招商局等部门相关负责人分别就相关项目进行介绍。</li>   
+                       <li class="why_answer">协会：</li>
+                       <li class="p">当天下午，河南省应急产业协会组织举办全国应急产业协会研讨会，研讨会以“中国应急产业发展前景展望、如何建立互联互通机制密切协会间的交流、推进协会工作的开展进行研讨”为主题。在研讨会上，各参会单位把本单位过去所走的弯路、现在创新性的且已经取得成效的经验进行了充分的交流。</li>   
+                       <li class="why_answer">企业：</li>
+                       <li class="p">艾媒咨询权威第三方将联合产业链多方力量，现场举行启动仪式推出互联金融圈的“公告牌”。综合多项关键指标，未来每季度面向公众推出 “IF公告牌---中国互联网金融平台影响力排行榜”。</li>  
+                        <li class="why_answer">6.互联网金融趋势报告重磅首发：</li>
+                       <li class="p">全球领先的移动葫芦丝第三方数据机构iiMedia Research Group(艾媒咨询集团)现场独家发布重量级调研报告《2015年中国互联网金融发展市场研究报告》，全面展示2015中国互联网金融发展趋势状况和权威数据分析，为参会嘉宾提供了扩展视野、共享发展成果的机会，无疑将引领中国互联网金融发展风向。</li>   
+                        <li class="why_answer">7. 高度的媒体曝光：</li>
+                       <li class="p">广东省应急产业协会介绍了两个项目。其中一个是与华人频道合作项目“媒联网”传播集成项目，介绍了该项目的9大特点： 
+
+　　1.借助央视媒体的全球覆盖性、公信力强特点向社会推广会员单位及产品； 
+
+　　2.通过多平台同步传播实现广的覆盖，50个平台的同步传播，还可定制化平台传播； 
+
+　　3.通过多应用分享传播实现广的应用，131个平台可以选择； 
+
+　　4.通过裂变式传播提高传播效率，专码扫描分享； 
+
+　　5.利用新技术推出“专利”应用：华人码、微视名片等； 
+
+　　6.专版化基础服务实现信息全的特点； 
+
+　　7.定制化增值服务实现功能全的特点； 
+
+　　8.365天无障碍对接实现服务优特点； 
+
+　　9.性价比高，为会员单位提供低价优质的服务；</li>    
+                    </ul>
+            </div>
+          
+            <!--联系我们-->
+           
+        </div>
+       
+    </div>
+    <!--底部-->
+    
+     <!--底部-->
+    <div class="foot">
+          <div class="tell"> <span>服务热线：020-8922-4700</span></div>
+          <div class="copy"><span>Copyright©2014 <a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow">           粤ICP备11014183号-6</a></span></div>
+    </div>
+
+</div>
+<div class="footDiv">
+     <div class="link"><a href="/?regone.html">会员注册</a>|<a href="/?statement.html">法律声明</a>|<a href="/?contact.html">联系方式</a>|<a href="/?map.html">网站地图</a></div>
+     <div class="content">
+主管单位：工业和信息化部 　　承办单位：中防通用电信技术有限公司  <br> 
+地 址：北京市海淀区万寿路27号　　邮 编：100846　　COPYRIGHT@2015 中国安全产业协会 主办 京ICP备15015114号　
+     </div>
+</div>
+    <script type="text/javascript">
+	/**
+		var itemStatus = new Array(true,true,true,true,true,true);
+		function action(index)
+		{
+			if(itemStatus[index])
+			{
+				$("#c"+index).show("blind",{},500,{});
+			}else
+			{
+				$("#c"+index).hide("blind",{},500,{});
+			}
+			itemStatus[index] = !itemStatus[index];
+		}
+		
+		
+			$(function(){
+				//var maxWidth = $(".expertimg li").length * 200;
+				var scrollPic_01 = new ScrollPic();
+				scrollPic_01.scrollContId = "mainGuest"; //内容容器ID
+				scrollPic_01.arrLeftId = "prev";//左箭头ID
+				scrollPic_01.arrRightId = "next"; //右箭头ID
+				scrollPic_01.frameWidth = "1102";//显示框宽度
+				scrollPic_01.pageWidth = "1102"; //翻页宽度
+				scrollPic_01.speed = 20; //移动速度(单位毫秒，越小越快)
+				scrollPic_01.space = 8; //每次移动像素(单位px，越大越快)
+				scrollPic_01.autoPlay = true; //自动播放
+				scrollPic_01.autoPlayTime = 5; //自动播放间隔时间(秒)
+				scrollPic_01.initialize(); //初始化	
+			   
+			   	$(".guestsbottomul li").click(function(){
+		scrollPic_01.pageTo($(this).index());
+		
+		$(".guestsbottomul li").removeClass("active");
+		$(this).addClass("active");
+	});
+			
+			});
+		*/
+
+	
+				var track = $(".slider-container").silverTrack();
+				var parent = track.container.parents(".track");
+				 
+				// 左右箭头
+				track.install(new SilverTrack.Plugins.Navigator({
+				  prev: $("a.prev", parent),
+				  next: $("a.next", parent)
+				}));
+				
+				//下面三个小圆点
+				track.install(new SilverTrack.Plugins.BulletNavigator({
+				container: $(".bullet-pagination", parent)
+				}));
+				
+				track.start();
+		
+    </script>
+</body>
+</html>
